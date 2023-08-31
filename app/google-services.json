@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "423023418318",
+    "firebase_url": "https://algotape-default-rtdb.firebaseio.com",
+    "project_id": "algotape",
+    "storage_bucket": "algotape.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423023418318:android:56e800a9ea1d4c4d24a99f",
+        "android_client_info": {
+          "package_name": "com.example.algotape"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423023418318-bacd867rimtcldfm66v6qa77fi4gdmc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJOWxi6gffTIMcVSOuGTF1JG2WwMbX9SE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423023418318-bacd867rimtcldfm66v6qa77fi4gdmc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423023418318:android:9c6b3c055c373dfd24a99f",
+        "android_client_info": {
+          "package_name": "com.example.algotapes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423023418318-bacd867rimtcldfm66v6qa77fi4gdmc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJOWxi6gffTIMcVSOuGTF1JG2WwMbX9SE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423023418318-bacd867rimtcldfm66v6qa77fi4gdmc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423023418318:android:bb894824e41d4f6924a99f",
+        "android_client_info": {
+          "package_name": "com.example.algotapez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423023418318-bacd867rimtcldfm66v6qa77fi4gdmc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJOWxi6gffTIMcVSOuGTF1JG2WwMbX9SE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423023418318-bacd867rimtcldfm66v6qa77fi4gdmc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

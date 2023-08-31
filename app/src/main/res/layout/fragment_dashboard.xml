@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <!-- Title Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_upload_title"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/white"
+            android:elevation="5dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Upload Music"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Music Image Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/upload_img_card"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="32dp"
+            android:elevation="10dp"
+            android:layout_height="200dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/music_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/baseline_cloud_upload_24" />
+
+                <ImageView
+                    android:id="@+id/upload_music_image_btn"
+                    android:layout_width="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/baseline_camera_24"
+                    android:layout_height="24dp"
+                    android:elevation="50dp"
+                    app:tint="@color/black" />
+
+                <!-- Add this button to the layout -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/choose_music_btn"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Choose Music"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_alignParentBottom="true"/>
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Music Details Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <!-- Music Title -->
+            <EditText
+                android:id="@+id/music_title_et"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Music Title"
+                android:inputType="textPersonName"
+
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:textSize="16sp"
+                android:textColorHint="@color/text_color" />
+
+            <!-- Music Artist -->
+            <EditText
+                android:id="@+id/music_artist_et"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Artist"
+                android:layout_marginTop="15dp"
+                android:inputType="textPersonName"
+
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:singleLine="true"
+                android:textColorHint="@color/text_color" />
+
+            <!-- Producer -->
+            <EditText
+                android:id="@+id/music_producer_et"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Producer"
+                android:layout_marginTop="15dp"
+                android:inputType="textPersonName"
+
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:singleLine="true"
+                android:textColorHint="@color/text_color" />
+
+            <!-- Instrumentalist -->
+            <EditText
+                android:id="@+id/music_instrumentalist_et"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Instrumentalist"
+                android:layout_marginTop="15dp"
+                android:inputType="textPersonName"
+
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:singleLine="true"
+                android:textColorHint="@color/text_color" />
+
+            <!-- Label -->
+            <EditText
+                android:id="@+id/music_label_et"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Label"
+                android:layout_marginTop="15dp"
+                android:inputType="textPersonName"
+
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:singleLine="true"
+                android:textColorHint="@color/text_color" />
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+            <!-- Upload Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/upload_music_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/white"
+                android:text="Upload Music"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
