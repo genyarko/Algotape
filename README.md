@@ -17,7 +17,7 @@ To run AlgoTape locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/algotape.git
+   git clone https://github.com/genyarko/algotape.git
 
    Navigate to the project directory:
 
